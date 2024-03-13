@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgba(50, 34, 173, 0.839);
+}
+
+main{
+    width: 50vw;
+}
+
+main img{
+    width: 250px;
+    float: left;
+    shape-outside: url(Recursos/perfil-vectorizado.png);
+    shape-margin: 2rem;
+}
+
+p{
+    text-align: justify;
+}
